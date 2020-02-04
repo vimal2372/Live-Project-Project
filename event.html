@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css\1.css">
+        <script src="js/1.js"></script>
+        <title>vimal</title>
+        <script>
+            function myFunction() {
+                alert("this is for office use only");
+              document.getElementById("p1").focus();
+            }
+            function myFunction1(x) {
+              x.style.background = "red";
+            }
+            </script>
+
+    </head>
+
+    <body style="background-color:rgb(116, 68, 23);" onload="load()">
+        
+        <header style=" height: 30%; color:mediumspringgreen; font-size: xx-large;background-image:url('bgg.jfif');color:black; padding:3%; color: white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">
+
+                <h1 class="p1">Live Virtual Classes</h1>
+        </header>
+
+        <nav class="n" >
+           
+            <a href="index.html">Home</a>
+             <a href="courses.html">All Courses</a>
+                <a href="gallary.html">Gallery</a>
+                      <a href="registration.html">Registration</a>
+                         <a href="contact.html">Contacts</a>
+                         <a href="pretest.html">PreTest</a>
+                         <a href="event.html">Events</a>
+                      
+        </nav>
+        <center>
+        <img onmouseover="mouseOver()" onmouseout="mouseOut()" border="0" src="asset/bg.jpg"  width="300" height="200">
+        <br>
+        <br>
+           Name: <input type="text" onkeypress="keyPress()"> 
+
+            Registraion:<input type="text" onfocus="myFunction()">
+            <br>
+            <br>
+           Password: <input type="text" id="p1" onblur="myFunction1()">
+<br>
+<br>
+           <select id="s1" onchange="change()">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+          <br>
+          <br>
+          
+          <textarea cols=100 rows=11 id="ta1"></textarea>
+            
+        </center>
+
+          <footer class="f">
+              <h1>footer</h1>
+              <footer>
+
+    </body>
+
+</html>
