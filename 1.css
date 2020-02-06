@@ -1,0 +1,150 @@
+.star {
+  color:red;
+}
+
+.p {
+  animation-duration: 3s;
+  animation-name: slidein;
+
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.p1 {
+  position: relative;
+  font-size: 200%;
+  animation-duration: 2s;
+  animation-name: sslidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes sslidein {
+  from {
+    margin-left:70%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 50px;
+  height: 60px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box:hover {
+  background-color: #FFCCCC;
+  width: 105px;
+  height: 106px;
+  transform: rotate(180deg);
+}
+
+
+
+
+
+
+.n{
+    background-color: rgb(10, 10, 10);
+    display:inline;
+    margin-top:.2%;
+    padding-left:16%;
+    font-size: xx-large;
+    display: block;
+}
+
+a{
+  padding-right:4%;
+  color: antiquewhite;
+text-decoration: none;
+
+}
+/* visited link */
+a:visited {
+  color:blanchedalmond;;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
+  .a{
+display: block;
+margin-top: 1%;
+overflow: hidden;
+float:left;
+width:25%;
+height: 100%;
+border: 1px solid rgb(20, 17, 17);
+border-radius:50px 50px 50px 50px;
+color:black;
+background-color: gray;
+}
+
+  .b{
+    display: block;
+    margin-top: 1%;
+    margin-left: 1%;
+    overflow: hidden;
+    float:left;
+    width:48%;
+    height: 100%;
+    border: 1px solid rgb(20, 17, 17);
+    border-radius:50px 50px 50px 50px;
+    color:black;
+    background-color: gray;
+  }
+
+  .c{
+    display: block;
+    margin-top: 1%;
+    margin-left:-10px;
+    overflow: hidden;
+    float: right;
+    width:25%;
+    height: 100%;
+    border: 1px solid rgb(20, 17, 17);
+    border-radius:50px 50px 50px 50px;
+    color:black;
+    background-color: gray;
+  }
+
+/*
+  .f{
+    background-color: rgb(109, 108, 106);
+     position: absolute;
+  left: 0;
+  right: 0;
+  color: rgba(12, 11, 11, 0.904);
+  text-align: center;
+  height: 4;
+  font-size: large;
+  padding-bottom: 2%;
+  border-radius:50px 50px 50px 50px;
+  }*/
